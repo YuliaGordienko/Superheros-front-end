@@ -1,0 +1,125 @@
+[{
+  "_id": {
+    "$oid": "61e42eea1be64920176de143"
+  },
+  "nickname": "Black Widow",
+  "real_name": "Natasha Romanoff ",
+  "origin_description": "Like her namesake arachnid, Romanoff is stealthy, precise, and absolutely lethal. She is the Black Widow. Black Widow is a deadly one-woman fighting force. An expert in many forms of martial arts, she is also a skilled gymnast and possesses superhuman strength, speed, agility, and endurance.",
+  "superpowers": "master in the covert arts of espionage, infiltration, and subterfuge",
+  "catch_phrase": "This Would Be A Cool Way To Die",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de145"
+  },
+  "nickname": "Storm",
+  "real_name": "Ororo Munroe",
+  "origin_description": "Storm is one of the most powerful mutants on Earth and has demonstrated a plethora of abilities, most of which are facets of her power to manipulate the weather. Storm possesses the psionic ability to control all forms of weather over vast areas.",
+  "superpowers": "to control the elemental forces that preside over weather. Immune to extreme temperatures, both hot and cold, she can create winds strong enough to support her weight, giving her the ability to fly.",
+  "catch_phrase": "Few can weather the storm.",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de140"
+  },
+  "nickname": "Thor",
+  "real_name": "Thor",
+  "origin_description": "In Germanic mythology is a hammer-wielding god associated with lightning, thunder, storms, sacred groves and trees, strength, the protection of mankind, hallowing, and fertility.",
+  "superpowers": "possesses superhuman strength, speed, agility, durability and immunity to most diseases.",
+  "catch_phrase": "I’M ONLY ALIVE BECAUSE FATE WANTS ME ALIVE.",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de144"
+  },
+  "nickname": "Captain America",
+  "real_name": "Steve Rogers",
+  "origin_description": " A frail young man who is enhanced to the peak of human ability by an experimental serum in order to aid the United States war effort.",
+  "superpowers": "agility, strength, speed, endurance, and reaction time ",
+  "catch_phrase": "I Protected America. Life, Liberty, And The Pursuit Of Happiness. Democracy.",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de13b"
+  },
+  "nickname": "Superman",
+  "real_name": "Clark Kent",
+  "origin_description": "Superman was born on the fictional planet Krypton and was named Kal-El. As a baby, his parents sent him to Earth in a small spaceship moments before Krypton was destroyed in a natural cataclysm.",
+  "superpowers": "possesses the powers of flight, superhuman strength, x-ray vision, heat vision, cold breath, super-speed, enhanced hearing, and nigh-invulnerability.",
+  "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de13c"
+  },
+  "nickname": "Wonder Woman",
+  "real_name": "Diana Prince",
+  "origin_description": "Wonder Woman's Bronze Age origin story relates that she was sculpted from clay by her mother Queen Hippolyta and was given a life as an Amazon, along with superhuman powers as gifts by the Greek gods.",
+  "superpowers": "prodigious strength and speed, near invulnerability to physical harm, and formidable combat prowess.",
+  "catch_phrase": "I will fight for those who cannot fight for themselves",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de141"
+  },
+  "nickname": "Batman",
+  "real_name": "Bruce Wayne",
+  "origin_description": "The character received his own spin-off publication, Batman, in 1940. Batman was originally introduced as a ruthless vigilante who frequently killed or maimed criminals, but evolved into a character with a stringent moral code and strong sense of justice.",
+  "superpowers": "Batman does not possess any superpowers, instead relying on his intellect, fighting skills, and wealth.",
+  "catch_phrase": "It's not who I am underneath, but what I do that defines me",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de142"
+  },
+  "nickname": "Iron Man",
+  "real_name": "Tony Stark",
+  "origin_description": "Tony Stark is the wealthy son of industrialist and weapons manufacturer Howard Stark and his wife, Maria. Tony grew up a genius with a brilliant mind for technology and inventions and, naturally, followed in his father's footsteps, inheriting Stark Industries upon his parents' untimely death.",
+  "superpowers": "Iron Man possesses powered armor that gives him superhuman strength and durability, flight, and an array of weapons. The armor is invented and worn by Stark (with occasional short-term exceptions).",
+  "catch_phrase": "I am Iron Man",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de13d"
+  },
+  "nickname": "Aquaman",
+  "real_name": "Arthur Curry",
+  "origin_description": "Due to his heritage, Aquaman discovered as a youth that he possessed various superhuman abilities, Arthur decided to use his talents to become the defender of the Earth's oceans.",
+  "superpowers": "surviving underwater, communication with sea life, and tremendous swimming prowess.",
+  "catch_phrase": "Ask The Sea For Mercy",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de13f"
+  },
+  "nickname": "Hulk",
+  "real_name": "Bruce Banner",
+  "origin_description": "Bruce Banner lives a life caught between the soft-spoken scientist he's always been and the uncontrollable green monster powered by his rage. Exposed to heavy doses of gamma radiation, scientist Bruce Banner transforms into the mean, green rage machine called the Hulk.",
+  "superpowers": "Incredible superhuman strength, durability, and healing factor",
+  "catch_phrase": "Boring.",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e42eea1be64920176de13e"
+  },
+  "nickname": "Scarlet Witch",
+  "real_name": "Wanda Maximoff",
+  "origin_description": "Although much of the Scarlet Witch’s true origins remain elusive to her thanks to manipulations by others, she can still recall her early days as a child with her twin brother Pietro. The two lived on Wundagore Mountain in Eastern Europe, believing themselves born as mutants to a Romani couple named the Maximoffs. Given the name Wanda, she lived for a short time in childish innocence until local troubles involving her parents separated her and her brother from them and forced her to hide her growing powers.",
+  "superpowers": "IlluminationMagic (Chaos Magic)Matter TransmutationNexus BeingPowers of Life and DeathProbability AlterationPsychometryPrecognitionMagicMind ControlHealing FactorReality WarpingControl of ElementsPsionicsCommuning with Deceased Spirits",
+  "catch_phrase": "I'm Sorry, But This Will Hurt",
+  "images": ""
+},{
+  "_id": {
+    "$oid": "61e4845512cc6c61e1db82d4"
+  },
+  "nickname": "Yulia",
+  "superpowers": "waves",
+  "images": "\\public\\fotos\\foto.jpg"
+},{
+  "_id": {
+    "$oid": "61e4865bf58ece18c55c94b4"
+  },
+  "nickname": "Yulia",
+  "superpowers": "waves",
+  "images": "\\fotos\\foto.jpg"
+}]
