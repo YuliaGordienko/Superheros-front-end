@@ -10,40 +10,51 @@
 <body>
     <div class="wraf-for-header">
         <header>
-            <!-- <svg class="svg" width="32px" height="32px">
-                <use href="./css/images/sprite.svg#icon-film"></use>
-            </svg> -->
+           <div>
             <h1 class="main-title">Superheros</h1>
-            <form>
+            <form class="form-search">
                 <label>
                     <input class="main-input" type="text" name="user-enter" placeholder="start search">
-                    <button>
+                    <button class="button-search">
                         <svg class="svg" width="24px" height="24px">
-                            <use href="./css/images/sprite.svg#icon-search-2"></use>
+                            <use href="./css/images/sprite1.svg#icon-search-2"></use>
                         </svg>
                     </button>
                 </label>
             </form>
-            <form id="form" action="" enctype="multipart/form-data">
-                <input name="file" type="file" multiple>
-                <button type="submit">send</button>
-            </form>
-            <script>
-                const form = document.getElementById("form");
-                form.addEventListener("submit", function (e) {
-                    e.preventDefault();
-                    const data = new FormData();
-                    data.append("file", this.elements.file.files[0]);
-                    console.log(data);
-                })
-            </script>
+            <button class="add-button" type="button" data-modal-open>Add a hero</button>
+        </div>
+           
+           
+            
         </header>
     </div>
     <section>
    
             <ul class="div-for-heros"></ul>
        
-    </section>
+    </section> 
+    <!-- Модалка -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg width="11" height="11">
+                    <use href="./css/images/sprite1.svg#icon-Vector"></use>
+                </svg>
+            </button>
+            <form id="form" action="#" enctype="multipart/form-data" class="form-add, modal-form">
+            <input type="text" class="modal-input" id="nickname" name="nickname" required placeholder="nickname">
+            <input type="text" class="modal-input" id="real_name" name="real_name" required placeholder="real name">
+            <input type="text" class="modal-input" id="origin_description" name="origin_description" required
+                placeholder="origin description">
+            <input type="text" class="modal-input" id="superpowers" required name="superpowers" placeholder="superpowers">
+            <input type="text" class="modal-input" id="catch_phrase" required name="catch_phrase" placeholder="catch phrase">
+            <input name="file" class="input-for-file" type="file" multiple>
+            <input type="submit" class="input-send">
+            </form>
+                </div>
+                </div>
     <script src="./index.js" type="module"></script>
+    <script src="./modal.js" type="module"></script>
 </body>
 </html>

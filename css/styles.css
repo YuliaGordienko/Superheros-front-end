@@ -48,9 +48,13 @@ header {
   padding-top: 30px;
   background-image: url(../css/images/background.jpg);
   height: 500px;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* display: flex;
-  justify-content: center; */
-  /* background-repeat: no-repeat; */
+  justify-content: center;
+  background-repeat: no-repeat; */
   /* padding-left: 50px;
   padding-right: 50px; */
 }
@@ -73,6 +77,35 @@ header {
   color: #ffffff;
   padding-left: 15px;
 }
+.modal-input,
+.input-for-file {
+  min-width: 300px;
+  max-width: 480px;
+  height: 30px;
+  background-color: none;
+  outline: none;
+  border: 1px solid rgba(29, 28, 28, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.input-send {
+  min-width: 150px;
+  max-width: 240px;
+  height: 30px;
+  background-color: none;
+  outline: none;
+  border: 1px solid rgba(29, 28, 28, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  margin: 0 auto;
+}
 .link-in-header {
   color: #ffffff;
   text-transform: uppercase;
@@ -80,15 +113,18 @@ header {
 .link-in-header:not(:last-of-type) {
   margin-right: 10px;
 }
-form {
+.form-search {
   align-self: center;
   margin-top: 40px;
 }
-button {
+.button-search {
   background-color: transparent;
   border: none;
 }
-
+.btn-add {
+  width: 250px;
+  height: 30px;
+}
 .hero-gallery-list {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -194,7 +230,10 @@ button {
 .wraf-for-header {
   padding-bottom: 40px;
 }
-
+.form-add {
+  display: flex;
+  flex-direction: column;
+}
 .hero-gallery-item-rating {
   width: 36px;
   height: 16px;
@@ -220,4 +259,94 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+/* модалка */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 528px;
+  height: 581px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 41px;
+  padding-right: 39px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transform: scale(1) translate(-50%, -50%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-hidden .modal {
+  transform: scale(0.75) translate(-50%, -50%);
+}
+.modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  fill: var(--accent-color);
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal-form-input-label {
+  display: block;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-input-svg {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  display: block;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.add-button {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  min-width: 300px;
+  max-width: 480px;
+  height: 30px;
+  background-color: none;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  color: #ffffff;
+  padding-left: 15px;
 }

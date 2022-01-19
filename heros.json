@@ -110,13 +110,6 @@
   "images": ""
 },{
   "_id": {
-    "$oid": "61e4845512cc6c61e1db82d4"
-  },
-  "nickname": "Yulia",
-  "superpowers": "waves",
-  "images": "\\public\\fotos\\foto.jpg"
-},{
-  "_id": {
     "$oid": "61e4865bf58ece18c55c94b4"
   },
   "nickname": "Yulia",
