@@ -49,6 +49,9 @@ form.addEventListener("submit", async function postHero(e) {
 
   if (result) {
     form.reset();
+    const modal = document.querySelector(".modal");
+    modal.classList.add("is-hidden");
+    location.reload();
   }
 });
 const divForImg = document.querySelector(".div-for-heros");
@@ -67,5 +70,14 @@ async function onDeleteClick(event) {
       body: event.target.id,
     }
   );
+
   let result = await response.json();
+  if (result) {
+    location.reload();
+  }
 }
+
+// function onHeroClick(e) {
+//   e.preventDefault();
+//   console.log(e.currenTarget);
+// }
